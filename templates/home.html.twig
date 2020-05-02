@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Bienvenue en France{% endblock %}
+
+{% block body %}
+<h1>Bienvenue en France !</h1>
+
+<p>Il est {{ 'now'|date('H:i', 'Europe/Paris') }} à Paris.</p>
+
+<hr>
+
+<p>Copyright 2018 - {{ 'now'|date('Y', 'Europe/Paris') }}</p>
+{% endblock %}
+
+
+
+
+
